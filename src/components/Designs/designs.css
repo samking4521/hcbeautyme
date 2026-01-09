@@ -1,0 +1,112 @@
+/* =========================
+   Prevent whole-page horizontal scroll
+========================= */
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* =========================
+   Content Wrapper
+========================= */
+.designs {
+  width: 90%;
+  margin: 0 auto;           /* center content */
+  padding: 16px 0;          /* vertical spacing */
+  box-sizing: border-box;
+}
+
+/* Each category block */
+.design-section {
+  margin-bottom: 32px;
+}
+
+.category-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #f0f0f3;
+}
+
+.discoverCategory {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* =========================
+   Horizontal Scroll Area
+========================= */
+.row-scroll {
+  overflow-x: auto;                   /* allow horizontal scroll */
+  overflow-y: hidden;                 /* hide vertical overflow */
+  -webkit-overflow-scrolling: touch;  /* smooth scroll on iOS */
+  padding-bottom: 8px;
+  border-radius: 20px;
+
+  /* Hide scrollbar */
+  scrollbar-width: none;              /* Firefox */
+}
+
+.row-scroll::-webkit-scrollbar {
+  display: none;                      /* Chrome, Safari, Edge */
+}
+
+/* Grid inside scroll container */
+.row-grid {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 8px;
+}
+
+/* =========================
+   Images
+========================= */
+.row-image {
+    height: 300px;
+  width: 200px;
+  aspect-ratio: 1 / 2; /* width:height = 1:2 */
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.25s ease;
+}
+
+.row-image:hover {
+  transform: scale(1.05);
+}
+
+/* =========================
+   Responsive Breakpoints
+========================= */
+
+/* Mobile: exactly 2 images per screen */
+@media (max-width: 480px) {
+  .row-grid {
+    grid-auto-columns: calc((100vw - 12px) / 2); /* 2 images + gap */
+  }
+}
+
+/* Tablet: ~4 images per screen */
+@media (min-width: 481px) and (max-width: 1023px) {
+  .designs {
+    width: 90%;
+  }
+
+  .row-grid {
+    grid-auto-columns: calc((100vw - 36px) / 4); /* 4 images + gaps */
+  }
+}
+
+/* Desktop: ~5 images per screen */
+@media (min-width: 1024px) {
+  .designs {
+    width: 70%;
+  }
+
+  .row-grid {
+    grid-auto-columns: calc((100vw - 60px) / 5); /* 5 images + gaps */
+  }
+}

@@ -1,0 +1,18 @@
+/* Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+
+
+/* Explore page wrapper */
+.explore-wrapper {
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 100vh; /* full-screen gradient */
+}
+

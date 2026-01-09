@@ -1,0 +1,119 @@
+/* =========================
+   Absolute Fill Overlay
+   (RN StyleSheet.absoluteFillObject)
+========================= */
+
+.contact-overlay {
+  position: fixed;
+  inset: 0; /* top, right, bottom, left = 0 */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.contact-overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* =========================
+   Modal Panel
+========================= */
+
+.contact-panel {
+  width: 70%;
+  max-width: 480px;
+  background: #1a1a1a;
+  color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.45);
+  backdrop-filter: blur(10px);
+
+  transform: translateY(40px);
+  transition: transform 0.35s ease;
+}
+
+.contact-overlay.show .contact-panel {
+  transform: translateY(0);
+}
+
+/* =========================
+   Content
+========================= */
+
+.contact-content {
+  position: relative;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Close button */
+.close-button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.close-button:hover {
+  transform: rotate(90deg);
+  opacity: 0.8;
+}
+
+/* Profile photo */
+.contact-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #eab308;
+  margin-bottom: 16px;
+}
+
+/* Name */
+.contact-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+/* Description */
+.contact-desc {
+  font-size: 16px;
+  text-align: center;
+  opacity: 0.9;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+/* Contact info */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.95rem;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  color: #eab308; 
+  gap: 10px;
+  font-size: 16px;
+  opacity: 0.9;
+  justify-content: center;
+}
