@@ -1,14 +1,15 @@
+
 export const data = [
-    
+
   {
     category: "Office",
     images: [
-        "https://assets.hcbeautyme.com/office/office_one.png",
-        "https://assets.hcbeautyme.com/office/office_two.png",
-     "https://assets.hcbeautyme.com/office/office_three.png",
-     "https://assets.hcbeautyme.com/office/office_four.png",
-     "https://assets.hcbeautyme.com/office/office_five.png",
-     "https://assets.hcbeautyme.com/office/office_six.png"
+        "../../public/images/office/office_one.jpg",
+        "../../public/images/office/office_two.jpg",
+     "../../public/images/office/office_three.jpg",
+     "../../public/images/office/office_four.jpg",
+     "../../public/images/office/office_five.jpg",
+     "../../public/images/office/office_six.jpg"
     ],
     description: "Professional office modeling portraying confidence, modern elegance, tailored outfits, corporate environments, leadership presence, productivity, professionalism, polished aesthetics, business storytelling, visuals."
   },
