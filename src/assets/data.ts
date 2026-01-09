@@ -3,12 +3,12 @@ export const data = [
   {
     category: "Office",
     images: [
-        "https://hcbeautyme.com/office/office_one.png",
-        "https://hcbeautyme.com/office/office_two.png",
-     "https://hcbeautyme.com/office/office_three.png",
-     "https://hcbeautyme.com/office/office_four.png",
-     "https://hcbeautyme.com/office/office_five.png",
-     "https://hcbeautyme.com/office/office_six.png"
+        "https://assets.hcbeautyme.com/office/office_one.png",
+        "https://assets.hcbeautyme.com/office/office_two.png",
+     "https://assets.hcbeautyme.com/office/office_three.png",
+     "https://assets.hcbeautyme.com/office/office_four.png",
+     "https://assets.hcbeautyme.com/office/office_five.png",
+     "https://assets.hcbeautyme.com/office/office_six.png"
     ],
     description: "Professional office modeling portraying confidence, modern elegance, tailored outfits, corporate environments, leadership presence, productivity, professionalism, polished aesthetics, business storytelling, visuals."
   },
@@ -40,12 +40,12 @@ export const data = [
   {
     category: "Kitchen",
     images: [
-      "https://hcbeautyme.com/kitchen/kitchen_one.jpg",
-      "https://hcbeautyme.com/kitchen/kitchen_two.jpg",
-      "https://hcbeautyme.com/kitchen/kitchen_three.jpg",
-      "https://hcbeautyme.com/kitchen/kitchen_four.jpg",
-      "https://hcbeautyme.com/kitchen/kitchen_five.jpg",
-      "https://hcbeautyme.com/kitchen/kitchen_six.jpg",
+      "https://assets.hcbeautyme.com/kitchen/kitchen_one.jpg",
+      "https://assets.hcbeautyme.com/kitchen/kitchen_two.jpg",
+      "https://assets.hcbeautyme.com/kitchen/kitchen_three.jpg",
+      "https://assets.hcbeautyme.com/kitchen/kitchen_four.jpg",
+      "https://assets.hcbeautyme.com/kitchen/kitchen_five.jpg",
+      "https://assets.hcbeautyme.com/kitchen/kitchen_six.jpg",
     ],
     description: "Kitchen lifestyle modeling showcasing warmth, culinary creativity, home elegance, casual styling, cooking moments, authenticity, domestic storytelling, comfort, inviting atmospheres, visuals."
   },

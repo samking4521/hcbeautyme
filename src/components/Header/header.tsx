@@ -8,7 +8,7 @@ const Header = () => {
       <div className="text-content">
         <div className="labelCont">
           <LazyLoadImage
-            src={"https://hcbeautyme.com/logo.jpg"}
+            src={"https://assets.hcbeautyme.com/logo.jpg"}
             alt="..."
             className="logo"
              placeholderSrc="https://example.com/low-res.jpg"

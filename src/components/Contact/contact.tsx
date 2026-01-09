@@ -33,7 +33,7 @@ const Contact = ({ contact, closeContactForm }: ContactProps) => {
           </button>
 
           <img
-            src={"https://hcbeautyme.com/tourist/tourist_four.png"}
+            src={"https://assets.hcbeautyme.com/tourist/tourist_four.png"}
             alt="Ava Sinclair"
             className="contact-photo"
           />
