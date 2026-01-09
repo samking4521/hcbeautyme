@@ -1,5 +1,6 @@
 import { FaEnvelope, FaTimes } from "react-icons/fa";
 import "./contact.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 type ContactProps = {
   contact: boolean;
@@ -32,10 +33,11 @@ const Contact = ({ contact, closeContactForm }: ContactProps) => {
             <FaTimes />
           </button>
 
-          <img
+          <LazyLoadImage
             src={"https://assets.hcbeautyme.com/tourist/tourist_four.png"}
             alt="Ava Sinclair"
             className="contact-photo"
+            effect="blur"
           />
 
           <p className="contact-name">HCBeauty</p>

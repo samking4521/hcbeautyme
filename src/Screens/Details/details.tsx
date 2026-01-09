@@ -68,7 +68,6 @@ const DetailsScreen = ({ details, openDetailsScreen }: DetailsScreenProps) => {
               alt="..."
               loading="lazy"
               onClick={() => handleImageClick(img)}
-                placeholderSrc="https://example.com/low-res.jpg"
           effect="blur" // blur or opacity
             />
           ))}

@@ -57,7 +57,6 @@ const Rows = ({ item, openDetailsScreen }: { item: dataObj; openDetailsScreen: (
             src={img}
             alt="..."
             className="row-image"
-             placeholderSrc="https://example.com/low-res.jpg"
           effect="blur" // blur or opacity
           />
        
