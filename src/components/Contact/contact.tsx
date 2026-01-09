@@ -58,7 +58,7 @@ const Contact = ({ contact, closeContactForm }: ContactProps) => {
             
                      <a href={`mailto:${email}?subject=${subject}`} style={{textDecoration: "none"}}>
                         <p className="contact-email">
-                                          <FaEnvelope size={25} /> ava@example.com
+                                          <FaEnvelope size={25} /> {email}
 
                         </p>
             </a>
