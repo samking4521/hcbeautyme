@@ -1,0 +1,7 @@
+name = "hcbeautyme"          
+compatibility_date = "2026-01-09"
+
+# Tell Wrangler this is a static site
+[site]
+bucket = "./dist"                  
+entry-point = "."                   
