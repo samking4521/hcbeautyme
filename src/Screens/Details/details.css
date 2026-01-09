@@ -221,6 +221,18 @@ body {
   }
 }
 
+
+@media (min-height: 300px) {
+ .details-gallery {
+  padding: 5rem 5vw 5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #0f0f11;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+}
+
 /* Large Desktop */
 @media (min-width: 1600px) {
   .details-overlay {
