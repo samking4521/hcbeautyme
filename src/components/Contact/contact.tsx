@@ -34,7 +34,7 @@ const Contact = ({ contact, closeContactForm }: ContactProps) => {
           </button>
 
           <LazyLoadImage
-            src={"https://assets.hcbeautyme.com/tourist/tourist_four.png"}
+            src={"https://assets.hcbeautyme.com/tourist/tourist_four.jpg"}
             alt="Ava Sinclair"
             className="contact-photo"
             effect="blur"
