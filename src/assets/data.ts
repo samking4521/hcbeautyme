@@ -15,12 +15,12 @@ export const data = [
   {
     category: "Yacht",
     images: [
-      "https://hcbeautyme.com/yacht/yacht_one.png",
-      "https://hcbeautyme.com/yacht/yacht_two.png",
-      "https://hcbeautyme.com/yacht/yacht_three.png",
-      "https://hcbeautyme.com/yacht/yacht_four.png",
-      "https://hcbeautyme.com/yacht/yacht_five.png",
-      "https://hcbeautyme.com/yacht/yacht_six.png",
+      "https://assets.hcbeautyme.com/yacht/yacht_one.png",
+      "https://assets.hcbeautyme.com/yacht/yacht_two.png",
+      "https://assets.hcbeautyme.com/yacht/yacht_three.png",
+      "https://assets.hcbeautyme.com/yacht/yacht_four.png",
+      "https://assets.hcbeautyme.com/yacht/yacht_five.png",
+      "https://assets.hcbeautyme.com/yacht/yacht_six.png",
     ],
     description: "Luxury yacht modeling capturing sophistication, leisure, ocean backdrops, sunlit decks, elegant styling, exclusivity, travel lifestyle, premium experiences, refined aesthetics, imagery."
   },
@@ -28,12 +28,12 @@ export const data = [
   {
     category: "C-Suite",
     images: [
-      "https://hcbeautyme.com/csuite/csuite_one.png",
-      "https://hcbeautyme.com/csuite/csuite_two.png",
-      "https://hcbeautyme.com/csuite/csuite_three.png",
-      "https://hcbeautyme.com/csuite/csuite_four.png",
-      "https://hcbeautyme.com/csuite/csuite_five.png",
-      "https://hcbeautyme.com/csuite/csuite_six.png",
+      "https://assets.hcbeautyme.com/csuite/csuite_one.png",
+      "https://assets.hcbeautyme.com/csuite/csuite_two.png",
+      "https://assets.hcbeautyme.com/csuite/csuite_three.png",
+      "https://assets.hcbeautyme.com/csuite/csuite_four.png",
+      "https://assets.hcbeautyme.com/csuite/csuite_five.png",
+      "https://assets.hcbeautyme.com/csuite/csuite_six.png",
     ],
     description: "C-suite modeling expressing executive authority, strategic mindset, luxury tailoring, confidence, power dynamics, boardroom presence, success, ambition, elite corporate identity, branding."
 },
