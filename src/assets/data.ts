@@ -52,44 +52,44 @@ export const data = [
   {
     category: "Tourist",
     images: [
-      "https://hcbeautyme.com/tourist/tourist_one.png",
-      "https://hcbeautyme.com/tourist/tourist_two.png",
-      "https://hcbeautyme.com/tourist/tourist_three.png",
-      "https://hcbeautyme.com/tourist/tourist_four.png",
-      "https://hcbeautyme.com/tourist/tourist_five.png",
-      "https://hcbeautyme.com/tourist/tourist_six.png",
+      "https://assets.hcbeautyme.com/tourist/tourist_one.png",
+      "https://assets.hcbeautyme.com/tourist/tourist_two.png",
+      "https://assets.hcbeautyme.com/tourist/tourist_three.png",
+      "https://assets.hcbeautyme.com/tourist/tourist_four.png",
+      "https://assets.hcbeautyme.com/tourist/tourist_five.png",
+      "https://assets.hcbeautyme.com/tourist/tourist_six.png",
     ],
     description: "Tourist lifestyle modeling capturing curiosity, exploration, cultural immersion, landmarks, travel fashion, candid moments, storytelling, global perspectives, wanderlust energy, vibrant, visuals."
 },
   {
     category: "Maritime",
     images: [
-      "https://hcbeautyme.com/maritime/maritime_one.png",
-      "https://hcbeautyme.com/maritime/maritime_two.png",
+      "https://assets.hcbeautyme.com/maritime/maritime_one.png",
+      "https://assets.hcbeautyme.com/maritime/maritime_two.png",
 
-      "https://hcbeautyme.com/maritime/maritime_three.png",
+      "https://assets.hcbeautyme.com/maritime/maritime_three.png",
 
-      "https://hcbeautyme.com/maritime/maritime_four.png",
+      "https://assets.hcbeautyme.com/maritime/maritime_four.png",
 
-      "https://hcbeautyme.com/maritime/maritime_five.png",
+      "https://assets.hcbeautyme.com/maritime/maritime_five.png",
 
-      "https://hcbeautyme.com/maritime/maritime_six.png",
+      "https://assets.hcbeautyme.com/maritime/maritime_six.png",
     ],
     description: "Maritime modeling inspired by seafaring aesthetics, nautical fashion, windswept energy, coastal environments, resilience, adventure, ocean culture, timeless sailor heritage, imagery."
 },
   {
     category: "Parisian chic",
     images: [
-      "https://hcbeautyme.com/parisian_chic/parisian_chic_one.png",
-      "https://hcbeautyme.com/parisian_chic/parisian_chic_two.png",
+      "https://assets.hcbeautyme.com/parisian_chic/parisian_chic_one.png",
+      "https://assets.hcbeautyme.com/parisian_chic/parisian_chic_two.png",
 
-      "https://hcbeautyme.com/parisian_chic/parisian_chic_three.png",
+      "https://assets.hcbeautyme.com/parisian_chic/parisian_chic_three.png",
 
-      "https://hcbeautyme.com/parisian_chic/parisian_chic_four.png",
+      "https://assets.hcbeautyme.com/parisian_chic/parisian_chic_four.png",
 
-      "https://hcbeautyme.com/parisian_chic/parisian_chic_five.png",
+      "https://assets.hcbeautyme.com/parisian_chic/parisian_chic_five.png",
 
-      "https://hcbeautyme.com/parisian_chic/parisian_chic_six.png",
+      "https://assets.hcbeautyme.com/parisian_chic/parisian_chic_six.png",
     ],
     description: "Parisian chic modeling embodying effortless elegance, minimalist fashion, artistic confidence, café culture, timeless style, romance, urban sophistication, French aesthetics, imagery."
   },
@@ -97,12 +97,12 @@ export const data = [
   {
     category: "Date night",
     images: [
-      "https://hcbeautyme.com/datenight/datenight_one.png",
-      "https://hcbeautyme.com/datenight/datenight_two.png",
-      "https://hcbeautyme.com/datenight/datenight_three.png",
-      "https://hcbeautyme.com/datenight/datenight_four.png",
-      "https://hcbeautyme.com/datenight/datenight_five.png",
-      "https://hcbeautyme.com/datenight/datenight_six.png",
+      "https://assets.hcbeautyme.com/datenight/datenight_one.png",
+      "https://assets.hcbeautyme.com/datenight/datenight_two.png",
+      "https://assets.hcbeautyme.com/datenight/datenight_three.png",
+      "https://assets.hcbeautyme.com/datenight/datenight_four.png",
+      "https://assets.hcbeautyme.com/datenight/datenight_five.png",
+      "https://assets.hcbeautyme.com/datenight/datenight_six.png",
       
     ],
     description: "Date night modeling conveying romance, intimacy, confidence, refined styling, evening moods, emotional connection, elegance, subtle sensuality, cinematic storytelling, visuals, aesthetics."
@@ -110,12 +110,12 @@ export const data = [
   {
     category: "Vintage retro",
     images: [
-      "https://hcbeautyme.com/vintage/vintage_one.png",
-      "https://hcbeautyme.com/vintage/vintage_two.png",
-      "https://hcbeautyme.com/vintage/vintage_three.png",
-      "https://hcbeautyme.com/vintage/vintage_four.png",
-      "https://hcbeautyme.com/vintage/vintage_five.png",
-      "https://hcbeautyme.com/vintage/vintage_six.png",
+      "https://assets.hcbeautyme.com/vintage/vintage_one.png",
+      "https://assets.hcbeautyme.com/vintage/vintage_two.png",
+      "https://assets.hcbeautyme.com/vintage/vintage_three.png",
+      "https://assets.hcbeautyme.com/vintage/vintage_four.png",
+      "https://assets.hcbeautyme.com/vintage/vintage_five.png",
+      "https://assets.hcbeautyme.com/vintage/vintage_six.png",
     ],
     description: "Vintage inspired modeling celebrating retro fashion, classic silhouettes, nostalgia, film aesthetics, timeless beauty, analog moods, heritage styling, storytelling, visual, culture."
   },
